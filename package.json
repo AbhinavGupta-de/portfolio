@@ -1,0 +1,14 @@
+{
+	"name": "portfolio",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"build": "mkdir -p public && node-sass src/styles/styles.scss public/styles.css && cp src/app.js public/ && cp src/index.html public/"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"node-sass": "^8.0.0"
+	}
+}
